@@ -1,0 +1,17 @@
+{
+  "name": "chai_with_backend",
+  "version": "1.0.0",
+  "description": "A backend course completed with chai aur code From Youtube (2 Shot ) Video",
+  "keywords": [
+    "JvaScript",
+    "Backend",
+    "Node+Express"
+  ],
+  "license": "ISC",
+  "author": "Afsar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
