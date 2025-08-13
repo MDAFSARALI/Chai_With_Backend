@@ -10,7 +10,7 @@ import dotenv from "dotenv";
 import connectDB from "./db/index.js";
 import { app } from "./app.js";
 
-dotenv.config({ path: "./env" });
+dotenv.config({ path: "./.env" });
 
 // FIRST APPROACH :
 // IIFE immediate invoked Function and semi colun is just for cleaning purpose
