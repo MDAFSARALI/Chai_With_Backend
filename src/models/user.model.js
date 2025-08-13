@@ -53,7 +53,7 @@ const userSchema = new Schema(
 // DON'T USE ARROW FUNCTION HERE : becuase we dont have this content in Arrow Function
 userSchema.pre("save",async function (next){
     if(!this.isModified("password"))return next;
-    this.password=bcrypt.hash(this.password,10)
+    this.password=await bcrypt.hash(this.password,10)
     next()
 })
 
